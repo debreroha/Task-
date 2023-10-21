@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes } from "react-router-dom";
-import Header from "./componnet/Header";
-import Tasks from "./componnet/Tasks";
-import AddTask from "./componnet/AddTask";
-import Footer from "./componnet/Footer";
-import About from "./componnet/About";
+import Header from "./component/Header";
+import Tasks from "./component/Tasks";
+import AddTask from "./component/AddTask";
+import Footer from "./component/Footer";
+import About from "./component/About";
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false);
@@ -79,6 +79,7 @@ const App = () => {
   };
 
   return (
+    // using router keyword
     <Router>
       <div className="container">
         <Header
@@ -95,9 +96,8 @@ const App = () => {
         ) : (
           "No task to show"
         )}
-
-        <Routes path="/About" Componnet={About} />
-
+        // routes the about component
+        <Routes path="/about" Component={About} />
         <Footer />
       </div>
     </Router>
