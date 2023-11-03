@@ -7,6 +7,7 @@ import Footer from "./component/Footer";
 import About from "./component/About";
 
 const App = () => {
+  // declaration of hooks specifically useState hook used to update the the state in the memory 
   const [showAddTask, setShowAddTask] = useState(false);
 
   const [tasks, setTasks] = useState([]);
