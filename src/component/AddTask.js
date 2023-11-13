@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; // declaring react hooks
 
 const AddTask = ({ onAdd }) => {
   const [text, setText] = useState("");
@@ -6,7 +6,7 @@ const AddTask = ({ onAdd }) => {
   const [reminder, setReminder] = useState(false);
 
   const onSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // helps to prevent unwanted browser refreshes
 
     if (!text) {
       alert("Please add a task");
