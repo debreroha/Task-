@@ -1,7 +1,7 @@
-import { useState } from "react"; // declaring react hooks
+import { useState } from "react"; // importing react hooks
 
 const AddTask = ({ onAdd }) => {
-  const [text, setText] = useState("");
+  const [text, setText] = useState(""); // declaring useState hooks in action
   const [day, setDay] = useState("");
   const [reminder, setReminder] = useState(false);
 
