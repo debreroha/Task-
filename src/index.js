@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // this the main component that takes each component and marge and pass into the DOM using the root id in the html
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// render app.js
 root.render(
   <React.StrictMode>
     <App />
