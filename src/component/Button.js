@@ -11,7 +11,7 @@ const Button = ({ color, text, onClick }) => { // accepting props from parent co
     </button>
   );
 };
-
+// giving default values in case the first is not working
 Button.defaultProps = {
   color: "steelblue",
 };
