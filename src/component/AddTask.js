@@ -7,7 +7,7 @@ const AddTask = ({ onAdd }) => {
 
   const onSubmit = (e) => {
     e.preventDefault(); // helps to prevent unwanted browser refreshes
-
+// conditional statement
     if (!text) {
       alert("Please add a task");
       return;
