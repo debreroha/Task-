@@ -80,7 +80,7 @@ const App = () => {
   };
 
   return (
-    // using router keyword
+    // using router keyword from react library
     <Router>
       <div className="container">
         <Header
@@ -97,7 +97,7 @@ const App = () => {
         ) : (
           "No task to show"
         )}
-        // routes the about component
+        //Routes the about component 
         <Routes path="/about" Component={About} />
         <Footer />
       </div>
