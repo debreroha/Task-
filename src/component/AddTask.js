@@ -6,7 +6,7 @@ const AddTask = ({ onAdd }) => {
   const [reminder, setReminder] = useState(false);
 
   const onSubmit = (e) => {
-    e.preventDefault(); // helps to prevent unwanted browser refreshes
+    e.preventDefault(); // helps to prevent browser refreshes automatically
 // conditional statement
     if (!text) {
       alert("Please add a task");
