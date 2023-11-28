@@ -1,4 +1,5 @@
 import { FaTimes } from "react-icons/fa";
+/// accept props passed from the parent component
 const Task = ({ task, onDelete, onToggle }) => {
   return (
     <div
