@@ -1,4 +1,4 @@
-import Task from "./Task"; //// import the exported component
+import Task from "./Task"; //// import the task component exported from another component
 const Tasks = ({ tasks, onDelete, onToggle }) => {
   return (
     <> 
