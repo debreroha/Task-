@@ -16,6 +16,7 @@ Button.defaultProps = {
   color: "steelblue",
 };
 
+// giving type for each props
 Button.propTypes = {
   text: PropTypes.string,
   color: PropTypes.string,
