@@ -12,7 +12,7 @@ const AddTask = ({ onAdd }) => {
       alert("Please add a task");
       return;
     }
-
+  /// taking props
     onAdd({ text, day, reminder });
 
     setText("");
