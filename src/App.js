@@ -33,7 +33,7 @@ const App = () => {
     const data = await res.json();
     return data;
   };
-  // add task
+ 
   const addTask = async (task) => {
     const res = await fetch("http://localhost:5000/tasks", {
       method: "POST",
