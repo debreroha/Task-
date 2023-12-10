@@ -11,7 +11,7 @@ const App = () => {
   const [showAddTask, setShowAddTask] = useState(false);
 
   const [tasks, setTasks] = useState([]);
-// declaration of useEffect() hook
+
   useEffect(() => {
     const getTasks = async () => {
       const tasksFromServer = await fetchTasks();
